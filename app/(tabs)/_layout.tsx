@@ -36,9 +36,7 @@ export default function TabsLayout() {
           headerTitle: "About",
           tabBarIcon: ({ focused, color }) => (
             <Ionicons
-              name={
-                focused ? "information-circle" : "information-circle-outline"
-              }
+              name={focused ? "list" : "list-outline"}
               color={color}
               size={30}
             />
